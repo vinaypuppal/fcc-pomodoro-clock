@@ -17,7 +17,7 @@ $(document).ready(function(){
     return value < 10 ? "0"+value : value;
   };
   
-  var audio = new Audio("http://www.universal-soundbank.com/802a/805020000000000000000000000pkjn800000000000000000000000000000090/g/85055050505050505050505/k/4202.MP3");
+  var audio = new Audio("https://res.cloudinary.com/vinaypuppal/video/upload/v1466482181/completed_tone.mp3");
   audio.volume=0.5;
   
   $('.left').find('.inc').on('click',function(e){
